@@ -1,0 +1,675 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+/*头部CSS开始*/
+#header{
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+#nav{
+    height: 100px;
+    margin: auto;
+    width: 1580px;
+      color: black
+
+}
+#nav ul{
+    float: right;
+}
+#nav li{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+}
+#nav a{
+    font-size: 16px;
+    line-height: 100px;
+    color: black;
+}
+#logo{
+    overflow: none;
+    margin-top: 20px;
+}
+#dhbs{
+    color: blue !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+  
+}
+/*#nav li a:after{
+    content: "";
+    width: 60px;
+    height: 5px;
+    background-color: #007acc;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    transition: all 0.5s;
+}
+*/
+/*头部CSS结束*/
+
+/*banner CSS开始*/
+#banner {
+    float: left;
+    height:600px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#banner img {
+    position: absolute;
+    width: 1920px;
+    left: 0;
+    top: 0;
+}
+#banner div {
+    bottom: 9px;
+    left:48%;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#banner div a {
+    background-color: white;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 20px;
+    border:1px solid #fff;
+}
+#banner div a:hover {
+    text-decoration: none;
+    
+}
+/*banner CSS结束*/
+
+/*技术研发 CSS开始*/
+#jsyf{
+    overflow: hidden;
+    width: 1480px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+#jstitle{
+    margin:30px auto;
+    width: 180px;
+
+}
+#jstitle h3{
+    text-align: center;
+}
+#jsyf ul{
+    width: 1480px;
+
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+#jsyf li{
+    
+    width: 280px;
+    float: left;
+    margin: 20px;
+}
+#jsyf p{
+    font-size: 12px;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 280px;
+    text-align: center;
+
+}
+
+#jsyf a{
+    float: left;
+
+   
+}
+#jsyf h4{
+    width: 70px;
+    margin: auto;
+    color: black;
+}
+.jstb{
+    width: 67px;
+    height: 67px;
+    margin: auto;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+}
+.more{
+    border:1px solid #000;
+    margin: 0 auto;
+    width: 120px;
+    line-height: 36px;
+    color: #000;
+    text-align: center;
+    
+}
+
+#jsyf li a img{
+    position: relative;
+    filter: drop-shadow(67px 0 #026d33);
+    border-right: 67px solid transparent;
+}
+#jsyf a:hover img{
+    left: -67px;
+}
+#jsyf a:hover .more{
+    color: white;
+    background-color: #026d33;
+}
+#jsyf a:hover h4{
+    color: #026d33;
+}
+/*技术研发 CSS结束*/
+
+
+/*业务领域 CSS开始*/
+#ywly{
+    overflow: hidden;
+    height: 600px;
+    background-image: url(../images/ywly_bj.png);
+    background-repeat: no-repeat;
+
+
+
+}
+.imglist p{
+font-size: 12px;
+}
+#ywly_title{
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+}
+.imglist_w a{
+    color: black;
+}
+
+a.abtn{
+	display:block;
+	height:130px;
+	width:17px;
+	overflow:hidden;
+	background:url(../images/arrow3.png) no-repeat 0px 50%;
+}
+a.aleft{
+	float:left;
+	margin-top: 50px;
+}
+a.agrayleft{
+	cursor:default;
+	background-position:-34px 50%;
+}
+a.aright{
+	float:right;
+	margin-top: 50px;
+	background-position:-17px 50%;
+}
+a.agrayright{
+	cursor:default;
+	background-position:-51px 50%;
+}
+.scrolllist{
+	width:1480px;
+	height:204px;
+	margin: auto;
+	margin-top: 100px;
+}
+.scrolllist .imglist_w{
+width:1400px;
+height:300px;
+overflow:hidden;
+float:left;
+position:relative;/*必要元素*/
+
+}
+.scrolllist .imglist_w ul{
+	width:20000px;
+	position:absolute;
+	left:0px;top:0px;
+}
+
+.scrolllist .imglist_w li{
+	width:250px;
+    height: 270px;
+	float:left;
+	padding:30px;
+	 background-color: white;
+	margin-left: 10px;
+    position: relative;
+}
+#ywhx{
+	width: 40px;
+	height: 4px;
+	background-color: #315dc4;
+	transition: all 1s;
+}
+#shang{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#shang h3{
+	margin-left: 9px;
+}
+#zhong
+{
+	margin-left: 20px;
+	margin-top: 20px;
+    height: 100px;
+}
+#anniu{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border:1px solid black;
+	width: 50px;
+	transition: all 1s;
+    position: absolute;
+    bottom: 50;
+}
+.imglist h4{
+	color: #617bcc;
+}
+
+.scrolllist .imglist_w li a:hover #ywhx {
+	width: 130px;
+}
+.scrolllist .imglist_w li a:hover #anniu {
+	background-color: #315dc4;
+	border:1px solid white;
+	color: white;
+}
+
+/*业务领域 CSS结束*/
+
+
+/*集团简介 CSS开始*/
+#jtjj{
+    width: 100%;
+    height: 640px;
+    background-color: #eee;
+}
+#jjnr{
+    width: 1480px;
+    margin: auto;
+    padding-top: 50px;
+
+}
+#jtjj_left{
+    float: left;
+}
+#jtjj_left img{
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+#jtjj_right{
+   width: 600px;
+   float: left;
+   margin-left: 150px;
+   padding-top: 50px;
+}
+
+#jtjj_right p{
+   font-size: 12px;
+
+}
+#jtjj_right h4{
+   margin-bottom: 20px;
+}
+#jtjj_right a{
+    font-size: 12px;
+    color: black;
+}
+#jtjj_right li img{
+ width: 10px;
+ height: 10px;
+ margin-right: 5px;
+
+}
+.jtjj_right_hx{
+    height: 2px;
+    width: 500px;
+    background-color: #7b7b7b;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+.more1{
+    border:1px solid #000;
+    
+    width: 120px;
+    line-height: 36px;
+    color: #000;
+    text-align: center;
+    margin-top: 70px;
+    transition: all 1s;
+}
+.more1:hover{
+    color: white;
+    background-color: #026d33;
+    border: 1px solid #026d33;
+}
+/*集团简介 CSS结束*/
+
+/*新闻中心 CSS开始*/
+#xwzx{
+    width: 1580px;
+    margin: 0 auto;
+    height: 800px;
+}
+#xwtitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#xwzx_left{
+    float: left;
+}
+.xwzx_left_s{
+    background-color: #026d33;
+    width: 740px;
+    height: 200px;
+}
+.xwzx_left_sz{
+    height: 100px;
+    width: 180px;
+    float: left;
+    margin-top: 50px;
+}
+.xwzx_left_sz h4{
+    text-align: center;
+    color: white;
+
+}
+.xwzx_left_sy{
+    float: left;
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+
+}
+.xwzx_left_sy p{
+    font-size: 12px;
+}
+.xwzx_left_sy1{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+.xwzx_left_sy2{
+    margin-top: 20px;
+
+    
+}
+h1{
+    text-align: center;
+}
+.xwzx_left_x{
+    background-image: url(../images/xwzx_1.jpg);
+    background-repeat: no-repeat;
+    width: 740px;
+    height: 500px;
+    color: #6d6d6d;
+}
+.xwzx_left_x p{
+    font-size: 12px;
+}
+.xwzx_left_x1{
+    background-color: #eee;
+    width: 320px;
+    height: 250px;
+    float: right;
+    margin-top: 250px;
+}
+.xwzx_left_x1_title{
+    color: #717273;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.xwzx_left_x21{
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  
+
+}
+
+.xwzx_left_x22{
+    padding-top: 9px;
+
+    }
+#xwzx_right{
+    float: left;
+    width: 840px;
+    height: 700px;
+}
+.xwzx_right_s{
+    width: 840px;
+    height: 450px;
+    background-image: url(../images/xwzx_2.jpg);
+    background-repeat: no-repeat;
+
+}
+.xwzx_right_s1{
+background-color: #fff;
+width: 300px;
+height: 150px;
+float: right;
+margin-right: 40px;
+}
+.xwzx_right_s11{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.xwzx_right_s12{
+    margin-left: 10px;
+}
+.xwzx_right_s12 p{
+    font-size: 12px;
+}
+.xwzx_right_x2 p{
+    font-size: 12px;
+}
+.xwzx_right_x1{
+    float: left;
+    width: 420px;
+    height: 250px;
+    background-color: #026d33;
+}
+.xwzx_right_x11{
+    width: 250px;
+    height: 180px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+   line-height: 30px;
+   padding-top: 60px;
+}
+.xwzx_right_x2{
+    background-color: #eee;
+    width: 420px;
+    height: 230px;
+    float: left;
+    padding-top: 20px;
+
+}
+.xwzx_right_x21{
+    float: left;
+    margin-right: 20px;
+    margin-left:30px;
+    margin-top: 20px;
+  
+
+}
+
+.xwzx_right_x22{
+    margin-top: 25px;
+
+    }
+
+/*.xwzx_left_sy:hover .xwzx_left_sy1{
+    background-color: red;
+}*/
+/*新闻中心 CSS结束*/
+
+
+
+/*科普基地 CSS开始*/
+#kpjd{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+#kpjd_left{
+    float: left;
+    height: 600px;
+    width: 50%;
+}
+
+#kpjd p{
+    font-size: 12px;
+    margin-top: 50px;
+    
+}
+#kpjd_right{
+width: 50%;
+height: 600px;
+float: left;
+}
+#kpjd_r1{
+    float: left;
+    width: 950px;
+    height: 250px;
+    background-color: #eeeeee;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.more2{
+    border:1px solid #000;
+    
+    width: 120px;
+    line-height: 36px;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+    transition: all 1s;
+    
+}
+.more2:hover{
+    color: white;
+    background-color: #026d33;
+    border: 1px solid #026d33;
+}
+
+/*科普基地 CSS结束*/
+
+
+/*页脚 CSS开始*/
+#footer{
+    overflow: hidden;
+    width: 100%;
+    height: 248px;
+    background-color: #026d33;
+    border-bottom: 20px solid #01421f;
+}
+#footer_nr{
+    width: 1480px;
+    height: 170px;
+    margin: auto;
+    margin-top: 50px;
+}
+#footer_left{
+    float: left;
+}
+#footer_center1{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer_center1_hx{
+    overflow: hidden;
+    height: 50px;
+    width: 459px;
+    margin-left: 8px;
+    border-bottom: 2px solid #324363;
+}
+#footer_center1 ul li{
+    float: left;
+ }
+#footer_center1 ul li a{
+    font-size: 14px;
+    margin-left: 10px;
+    color: white;
+}
+
+#footer_center1 p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#footer_center2{
+    float: left;
+    margin-right: 50px;
+
+}
+#footer_center2 h4{
+    color: white;
+}
+.footer_center2_hx{
+    width: 450px;
+    height: 10px;
+    border-bottom: 2px solid #324363;
+    margin-bottom: 12px;
+}
+#footer_center2 p{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+#footer_center2 ul li{
+float: left;
+margin-top: 30px;
+}
+#footer_center2 ul li a{
+margin-right: 10px;
+}
+#footer_right{
+width: 132px;
+float: left;
+}
+#footer_right p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+/*页脚 CSS结束*/

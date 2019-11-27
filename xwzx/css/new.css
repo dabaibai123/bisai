@@ -1,0 +1,173 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*头部CSS开始*/
+#header{
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+#nav{
+    height: 100px;
+    margin: auto;
+    width: 1580px;
+    color: black;
+
+}
+#nav ul{
+    float: right;
+}
+#nav li{
+    float: left;
+    list-style: none;
+    margin-right: 50px;
+}
+#nav a{
+    font-size: 16px;
+    line-height: 100px;
+    color: black;
+    
+}
+#logo{
+    overflow: none;
+    margin-top: 20px;
+}
+#dhbs{
+    color: blue !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+  
+}
+/*头部CSS结束*/
+
+/*banner CSS开始*/
+#banner {
+    float: left;
+    height:600px;
+    margin: 0 11px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 1920px;
+}
+#banner img {
+    position: absolute;
+    width: 1920px;
+    left: 0;
+    top: 0;
+}
+#banner div {
+    bottom: 9px;
+    left:48%;
+    overflow: hidden;
+    position: absolute;
+    float: left;
+}
+#banner div a {
+    background-color: white;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 20px;
+    border:1px solid #fff;
+}
+#banner div a:hover {
+    text-decoration: none;
+    
+}
+/*banner CSS结束*/
+
+
+
+
+/*页脚 CSS开始*/
+#footer{
+    overflow: hidden;
+    width: 1920px;
+    height: 248px;
+    background-color: #026d33;
+    border-bottom: 20px solid #01421f;
+    margin-top: 10px;
+}
+#footer_nr{
+    width: 1480px;
+    height: 170px;
+    margin: auto;
+    margin-top: 50px;
+}
+#footer_left{
+    float: left;
+}
+#footer_center1{
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.footer_center1_hx{
+    overflow: hidden;
+    height: 50px;
+    width: 459px;
+    margin-left: 8px;
+    border-bottom: 2px solid #324363;
+}
+#footer_center1 ul li{
+    float: left;
+ }
+#footer_center1 ul li a{
+    font-size: 14px;
+    margin-left: 10px;
+    color: white;
+}
+
+#footer_center1 p{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#footer_center2{
+    float: left;
+    margin-right: 50px;
+
+}
+#footer_center2 h4{
+    color: white;
+}
+.footer_center2_hx{
+    width: 450px;
+    height: 10px;
+    border-bottom: 2px solid #324363;
+    margin-bottom: 12px;
+}
+#footer_center2 p{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 2px;
+}
+
+#footer_center2 ul li{
+float: left;
+margin-top: 30px;
+}
+#footer_center2 ul li a{
+margin-right: 10px;
+}
+#footer_right{
+width: 132px;
+float: left;
+}
+#footer_right p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+/*页脚 CSS结束*/

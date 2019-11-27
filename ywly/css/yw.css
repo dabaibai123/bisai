@@ -1,0 +1,142 @@
+#ywly{
+	overflow: hidden;
+	width: 100%;
+	background-color: #f8f8f8;
+	/*height: 500px;*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.ywtitle{
+	width: 200px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+
+}
+#ywly ul{
+	width: 1200px;
+	height: 580px;
+	/*background-color:yellow;*/
+    box-shadow:rgba(0,0,0,0.5) 0px  0px 20px ;
+
+}
+#ywlynr{
+		width: 1200px;
+	height: 580px;
+	margin: auto;
+position: relative;
+
+}
+#ywlynr p{
+	font-size: 12px;
+	margin-top: 6px;
+	color: #A0A0A0;
+
+}
+#ywlynr h4{
+   color: #404040;
+}
+#ywly li{
+	width: 400px;
+	height: 580px;
+	float: left;
+
+}
+.show_img{
+	height: 290px;
+}
+.show_txt{
+	height: 210px;
+	width: 340px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: white;
+}
+.show_txt_hx{
+	width: 50px;
+	height: 2px;
+	background-color: #315dc4;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: all 1s;
+
+}
+p img{
+	width: 5px;
+	height: 5px;
+}
+#ywlynr ul li:hover  a .show_txt_hx{
+	width: 100px;
+}
+#ywlynr ul li:hover  #yinying{
+	background: rgba(0,0,0,0);
+}
+#ywlynr ul li:hover  #yinying1{
+	background: rgba(0,0,0,0);
+}
+#ywlynr ul li:hover  #yinying2{
+	background: rgba(0,0,0,0);
+}
+#yinying{
+	height: 290px;
+	z-index: 99;
+	width: 400px;
+	position: absolute;
+	top: 290px;
+	background: rgba(0,0,0,0.5);
+	transition: all 1s;
+
+}
+#yinying1{
+	height: 290px;
+	z-index: 9999;
+	width: 400px;
+	position: absolute;
+	top: 0px;
+	background: rgba(0,0,0,0.5);
+	transition: all 1s;
+
+}
+#yinying2{
+	height: 290px;
+	z-index: 99;
+	width: 400px;
+	position: absolute;
+	top: 290px;
+	background: rgba(0,0,0,0.5);
+	transition: all 1s;
+
+
+}
+
+.hye{
+	overflow: hidden;
+width: 100%;
+height: 100px;
+margin-top: 30px;
+
+}
+.hye dl{
+
+	width: 150px;
+	margin: auto;
+}
+.hye dd {
+	width: 20px;
+	height: 20px;
+
+	border-radius: 50%;
+	margin-top: 5px;
+	float: left;
+}
+dd{
+    background-color: #8F8F8F;
+    margin-right: 20px;
+}
+
+.hye dl .huanye {
+       background-color: #1c2f52;
+
+}

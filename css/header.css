@@ -1,0 +1,29 @@
+
+#header{
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+#nav{
+	height: 100px;
+	margin: auto;
+	width: 1480px;
+
+}
+#nav ul{
+	float: right;
+}
+#nav li{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+}
+#nav a{
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 100px;
+}
+#logo{
+	overflow: none;
+	margin-top: 20px;
+}
